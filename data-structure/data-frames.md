@@ -14,12 +14,12 @@ Now, try printing treasure to see its contents:
 print(treasure)
 ```
 
-| | weights | prices | types  |
-|-|---------|--------|--------|
-|1|     300 |   9000 | gold   |
-|2|     200 |   5000 | silver |
-|3|     100 |  12000 | gems   |
-|4|     250 |   7500 | gold   |
-|5|     150 |  18000 | gems   |
+|         | weights |  prices | types   |
+|---------|---------|---------|---------|
+|    1    |     300 |   9000  | gold    |
+|    2    |     200 |   5000  | silver  |
+|    3    |     100 |  12000  | gems    |
+|    4    |     250 |   7500  | gold    |
+|    5    |     150 |  18000  | gems    |
 
 There's your new data frame, neatly organized into rows, with column names (derived from the variable names) across the top.
