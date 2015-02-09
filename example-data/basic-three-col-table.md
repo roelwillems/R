@@ -6,7 +6,7 @@ B <- c("this is ok", "this is not","this is not","this is ok","this is ok", "thi
 data <- data.frame(A, B)
 ```
 ## Result
-|            |       B     |       C      |
+|            |       A     |       B      |
 |------------|-------------|--------------|
 | 1          |     yes     | this is ok   |
 | 2          |     no      | this is not  |
