@@ -29,3 +29,10 @@ This will check all rows where for colum B are equal to "no" and C are equal to 
 data <- data[!(data$B=="no" & d$C=="this is not"),]
 ```
 
+## Result:
+|     A      |       B     |       C      |
+|------------|-------------|--------------|
+| 1          |     yes     | this is ok   |
+| 2          |     yes     | this is ok   |
+| 3          |     yes     | this is ok   |
+
