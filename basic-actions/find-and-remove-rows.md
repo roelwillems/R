@@ -1,7 +1,7 @@
 #Find values and remove the corresponding rows if they meet the logical condition:
 
 ## Example data:
-|     A      |       B     |       C      |
+|            |       B     |       C      |
 |------------|-------------|--------------|
 | 1          |     yes     | this is ok   |
 | 2          |     no      | this is not  |
@@ -31,7 +31,7 @@ data <- data[!(data$B=="no" & d$C=="this is not"),]
 ```
 
 ## Result:
-|     A      |       B     |       C      |
+|            |       B     |       C      |
 |------------|-------------|--------------|
 | 1          |     yes     | this is ok   |
 | 2          |     yes     | this is ok   |
