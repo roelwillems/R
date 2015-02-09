@@ -27,7 +27,7 @@ This will check all rows where for colum B are equal to "no" and C are equal to 
 
 ## Writing the cleaned data to the dataset
 ```r
-data <- data[!(data$B=="no" & d$C=="this is not"),]
+data <- data[!(data$B=="no" & data$C=="this is not"),]
 ```
 
 ## Result:
