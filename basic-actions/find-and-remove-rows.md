@@ -9,6 +9,7 @@
 | 4          |     yes     | this is ok   |
 | 5          |     yes     | this is ok   |
 | 6          |     no      | this is not  |
+_[Creating the example data][1]_
 
 
 ## Check to see if the value is present
@@ -36,3 +37,4 @@ data <- data[!(data$B=="no" & d$C=="this is not"),]
 | 2          |     yes     | this is ok   |
 | 3          |     yes     | this is ok   |
 
+[1]: https://github.com/roelwillems/R/blob/master/example-data/basic-three-col-table.md
