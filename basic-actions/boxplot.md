@@ -58,4 +58,19 @@ Using _control$Conversion.Rate_ and varation$Conversion.Rate we draw the colum C
 ## Output
 ![Boxplot example](https://github.com/roelwillems/R/blob/master/images/boxplot-example.png)
 
+```r
+> t.test(control$Conversions, variation$Conversions)
+
+	Welch Two Sample t-test
+
+data:  control$Conversions and variation$Conversions
+t = -1.1043, df = 16.132, p-value = 0.2857
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -2.4319820  0.7653154
+sample estimates:
+mean of x mean of y 
+ 1.416667  2.250000 
+```
+
 [1]: http://statmethods.net/graphs/boxplot.html
