@@ -14,20 +14,20 @@ _[Creating the example data][1]_
 
 ## Check to see if the value is present
 ```r
-data[!(data$B=="no"),]
+data[!(data$A=="no"),]
 ```
 This will check all rows where colum B contain "no".
 
 ### To check against multiple colums
 ```r
-data[!(data$B=="no" & d$C=="this is not"),]
+data[!(data$A=="no" & d$B=="this is not"),]
 ```
 
 This will check all rows where for colum B are equal to "no" and C are equal to "this is not".
 
 ## Writing the cleaned data to the dataset
 ```r
-data <- data[!(data$B=="no" & data$C=="this is not"),]
+data <- data[!(data$A=="no" & data$B=="this is not"),]
 ```
 
 ## Result:
