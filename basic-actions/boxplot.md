@@ -56,6 +56,6 @@ Using _control$Conversion.Rate_ and varation$Conversion.Rate we draw the colum C
 - Main, xlab and names the legenda is added.
 
 ## Output
-![Boxplot example](images/boxplot-example.png)
+![Boxplot example](/master/images/boxplot-example.png)
 
 [1]: http://statmethods.net/graphs/boxplot.html
