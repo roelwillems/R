@@ -49,6 +49,13 @@ To draw the final boxplot we will use the [boxplot()][1] function.
 boxplot(control$Conversion.Rate, variation$Conversion.Rate, horizontal=TRUE, col=(c("lightgrey","darkgrey")),main="Site speed test", xlab="Conversion rate", names = c("Control","Variation"))
 ```
 
-Using _control$Conversion.Rate_ and varation$Conversion.Rate we draw the colum Conversion.Rate from both data.frames. Horizontal=TRUE makes sure that the boxplot is drawn horizonally instead of vertically. The additional of _col=(c("lightgrey","darkgrey"))_ determines the color of the boxplot body. and with main, xlab and names the legenda is added.
+Using _control$Conversion.Rate_ and varation$Conversion.Rate we draw the colum Conversion.Rate from both data.frames.
+
+- Horizontal=TRUE makes sure that the boxplot is drawn horizonally instead of vertically. 
+- The additional of _col=(c("lightgrey","darkgrey"))_ determines the color of the boxplot body. 
+- Main, xlab and names the legenda is added.
+
+## Output
+![Boxplot example](images/boxplot-example.png)
 
 [1]: http://statmethods.net/graphs/boxplot.html
