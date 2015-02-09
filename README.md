@@ -2,10 +2,10 @@
 Scripts and reference for R programming language for statistical computing and graphics
 
 ## Usage
-This extension will add sidebar panes to the elements panel of Chrome Developer Tools.
+The scripts and commands are ment as a reference to be used with R, and programming language for statictical computing and graphics.
 
 ## Install & usage
-The scripts and commands are ment as a reference to be used with R, and programming language for statictical computing and graphics. R is most easily to use when running an instance of [R Studio][1]. RStudio is a free and open source integrated development environment for R. [Download R][2] and start exploring for yourself!
+R is most easily to use when running an instance of [R Studio][1]. RStudio is a free and open source integrated development environment for R. Although the scripts will run on any R installation/usage form, I would recommend [downloading R][2] and start exploring for yourself!
 
 ## Issues
 Have found a bug in the reference material or any of the R scripts? Please create an [issue][3] here on GitHub!
